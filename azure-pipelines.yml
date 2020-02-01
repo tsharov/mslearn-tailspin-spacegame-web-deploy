@@ -6,7 +6,7 @@ variables:
   releaseBranchName: 'release'
 
 schedules:
-- cron: '10 24 * * *'
+- cron: '24 14 * * *'
   displayName: Deploy every day at 2:10 P.M.
   branches:
     include:
