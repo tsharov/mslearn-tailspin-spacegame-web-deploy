@@ -126,7 +126,7 @@ stages:
     - task: DotNetCoreCLI@2
       displayName: 'Build the project - $(buildConfiguration)'
       inputs:
-        command: 'build'
+        command:  'build'
         arguments: '--configuration $(buildConfiguration)'
         projects: '$(System.DefaultWorkingDirectory)/**/*UITests.csproj'
     - task: DotNetCoreCLI@2
